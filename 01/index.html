@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head align="center">
+		<meta charset="utf-8">
+		<title>
+			Земельні ділянки
+		</title>
+		<hgroup>
+			<h1>Земельні ділянки для учасників АТО/ООС</h1>
+			<h2>(для вибору, заповніть форму нижче)</h2>
+		</hgroup>
+		<img src="sergeant.jpg" alt="фото сержанта Гуцика" align="center" height="300px" width="500px">
+	</head>
+	<body>
+		<div>
+			<table width="50%" border="2px" cellpadding="15px">
+				<caption align="center">
+					<h2>
+						Схема розподілу ділянок
+					</h2>
+				</caption>
+				<tbody align="center">
+					<tr>
+						<td rowspan="2">1</td>
+						<td rowspan="3">2</td>
+						<td>3</td>
+						<td colspan="4">4</td>
+						<td>5</td>
+						<td>6</td>
+						<td rowspan="2">7</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>9</td>
+						<td colspan="2">10</td>
+						<td>11</td>
+						<td colspan="2" rowspan="2">12</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>14</td>
+						<td>15</td>
+						<td colspan="2" rowspan="2">16</td>
+						<td>17</td>
+						<td>18</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td colspan="2" rowspan="2">20</td>
+						<td>21</td>
+						<td>22</td>
+						<td>23</td>
+						<td rowspan="3">24</td>
+						<td>25</td>
+					</tr>
+					<tr>
+						<td rowspan="2">26</td>
+						<td>27</td>
+						<td colspan="2">28</td>
+						<td>29</td>
+						<td>30</td>
+						<td rowspan="2">38</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>32</td>
+						<td>33</td>
+						<td>34</td>
+						<td>35</td>
+						<td>36</td>
+						<td>37</td>
+					</tr>
+			</table>			
+		</div>
+		<div>
+			<ol>
+				<h3>Список обраних ділянок</h3>
+				<li></li>
+				<li>Горбатюк Володимир Петрович</li>
+				<li></li>
+				<li>Сорока Віталій Вікторович</li>
+				<li></li>			
+				<li></li>			
+				<li></li>
+				<li></li>
+				<li>Нагорний Тарас Андрійович</li>
+				<li></li>			
+				<li></li>			
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>			
+				<li></li>			
+				<li></li>
+				<li></li>
+				<li></li>
+				<li>Коваленко Роман Андрійович</li>			
+				<li></li>			
+				<li></li>
+				<li></li>
+				<li>Гончарук Микола Вікторович</li>
+				<li></li>			
+				<li></li>			
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>			
+				<li></li>			
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>			
+				<li></li>			
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+		<div>
+			<form action="nagornytaras@gmail.com" method="post">
+				<fieldset>
+					<legend>Заповніть Ваші особисті дані</legend>
+					<label for="name">Вкажіть повністю прізвище, ім'я та по-батькові</label><br>
+					<input type="text" id="name" placeholder="ПІБ" required><br>
+					<label for="img">Фото Вашого посвідчення УБД</label><br>
+					<input type="file" id="img" name="img" accept="image/*"><br>
+					<label for="number">Номер обраної ділянки</label><br>
+					<input type="number" id="number" name="quantity" placeholder="число від 1 до 38" min="1" max="38" required><br>
+					<label for="phone">Вкажіть номер мобільного телефону починаючи з нуля</label><br>
+					<input type="tel" id="phone" pattern="[0-9]{10}" maxlength="10"><br>
+					<input type="submit">
+				</fieldset>
+			</form>			
+		</div>
+	</body>
+	<footer>
+		<a href="https://land.gov.ua/">Copyright 2020. All rights reserved. Developed by Nahorny Taras</a>
+	</footer>
+</html>
