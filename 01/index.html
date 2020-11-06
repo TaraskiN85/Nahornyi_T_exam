@@ -16,11 +16,9 @@
 		</header>
 		<main>
 			<div>
-				<table width="50%" border="2px" cellpadding="15px">
+				<table width="50%" border="2px" cellpadding="15px" id="plotsScheme">
 					<caption align="center">
-						<h2>
-							Схема розподілу ділянок
-						</h2>
+						<h3>Схема розподілу ділянок</h3>
 					</caption>
 					<tbody align="center">
 						<tr>
@@ -76,8 +74,8 @@
 					</tbody>
 				</table>			
 			</div>
-			<div>
-				<h3>Список обраних ділянок</h3>
+			<div id="plotsList">
+				<h3>Список вільних ділянок</h3>
 				<ol>
 					<li></li>
 					<li>Горбатюк Володимир Петрович</li>
@@ -119,7 +117,8 @@
 					<li></li>
 				</ol>
 			</div>
-			<div>
+			<div id="personaldata">
+				<h3>Особисті дані</h3>
 				<form action="nagornytaras@gmail.com" method="post">
 					<fieldset>
 						<legend>Заповніть Ваші особисті дані</legend>
@@ -137,6 +136,22 @@
 			</div>
 		</main>
 		<footer>
+			<div>
+				<nav>
+					<ul>
+						<li>
+							<a href="#plotsScheme">Схема розподілу ділянок</a>
+						</li>
+						<li>
+							<a href="#plotsList">Список вільних ділянок</a>
+						</li>
+						<li>
+							<a href="#personaldata">Особисті дані</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
 			<div class="copy">
 				<a href="https://land.gov.ua/">Copyright 2020. All rights reserved. Developed by Nahorny Taras</a>
 			</div>
