@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<!--І при кліку показуємо третій документ - в якому знаходиться створена вами форма. Яка містить: легенду (хочу приєднатись до ЗСУ), ім'я-прізвище, вік та інпут - завантаження документу з комп'ютера.-->
+<head>
+	<title>You In The Army Now!</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Хочу приєднатись до ЗСУ</legend>
+			<input type="text" name="name" placeholder="Ім'я"><br>
+			<input type="text" name="name" placeholder="Прізвище"><br>
+			<input type="text" name="name" placeholder="По-батькові"><br>
+			<label for="age">Скільки Вам повних років?</label><br>
+			<input type="text" id="age" name="age" min="18" max="50" pattern="[0-9]{2}"><br>
+			<label for="file">Додайте резюме:</label>
+			<input type="file" id="file" name="file"><br>
+			<input type="submit" name="done">
+		</fieldset>
+	</form><br>
+	<audio controls>
+		<source src="the-status-quo-in-the-army-now.mp3" type="audio/mp3">			
+		Your browser does not support audio element.
+	</audio>
+</body>
+</html>

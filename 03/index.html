@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<title>Eurobliacher</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form action="autoria@mail.ua" method="POST">
+		<fieldset>
+			<legend>Оберіть авто для пригону</legend>
+			<label for="type">тип кузова</label><br>
+			<select id="type">
+				<option value="SUV">позашляховик</option>
+				<option value="sedan">седан</option>
+				<option value="hatchback">хетчбек</option>
+				<option value="wagoon">універсал</option>
+			</select><br>
+			<label for="brand">марка автомобіля</label><br>
+			<select id="brand">
+				<option value="ford">Ford</option>
+				<option value="honda">Honda</option>
+				<option value="bmw">BMW</option>
+				<option value="toyota">Toyota</option>
+				<option value="volvo">Volvo</option>
+			</select><br>
+			<label>звідки ви хотіли б пригнати авто</label><br>
+			<select id="country">
+				<option value="usa">США</option>
+				<option value="germany">Німеччина</option>
+				<option value="sweden">Швеція</option>
+				<option value="france">Франція</option>
+				<option value="norway">Норвегія</option>
+				<option value="danemark">Данія</option>
+				<option value="poland">Польща</option>
+			</select>
+ 		</fieldset>
+ 		<fieldset>
+ 			<legend>Особисті дані</legend>
+ 			<label for="fname">Ім'я</label>
+ 			<input type="text" id="fname" name="fname" required><br>
+ 			<label for="lname">Прізвище</label>
+ 			<input type="text" id="lname" name="lname" required><br>
+ 			<label for="ffname">По-батькові</label>
+ 			<input type="text" id="ffname" name="ffname" required><br>
+ 			<label for="tel">Контактний номер</label>
+ 			<input type="tel" id="tel" maxlength="10" pattern="[0-9]{10}" required><br>
+ 			<label for="id">Посвідчення УБД</label>
+ 			<input type="text" id="id" pattern="[А-Я]{2}[0-9]{6}" required><br>
+ 			<label for="bliacher">Чи ввозили ви до України <b>євробляхи</b> раніше?</label><br>
+ 			<input type="radio" id="bliacher" value="yes">так
+ 			<input type="radio" id="bliacher" value="no">ні<br>
+ 			<input type="submit" value="submit">
+ 		</fieldset>
+	</form>
+</body>
+</html>
